@@ -16,10 +16,10 @@ nav.navbar {
   align-items: center;
   box-shadow: 0px 2px 3px #cccccc;
 }
+
 .hamburger-btn {
   background: transparent;
   padding: 8px;
-  /* flex: 1; */
   width: 20px;
   height: auto;
   margin: 6px 16px 6px 0px;
@@ -65,7 +65,6 @@ nav.navbar {
 }
 
 .nav-buttons {
-  /* flex: 1; */
   margin-left: auto;
   display: flex;
   justify-content: space-evenly;
@@ -86,8 +85,6 @@ img.avatar {
   top: -5px;
 }
 
-/* MAIN SECTION STYLING */
-
 main {
   display: flex;
   flex-direction: row;
@@ -100,7 +97,6 @@ section {
   padding: 24px 24px 0 0;
   flex-direction: column;
   flex: 3 2 0;
-  /* background: rebeccapurple; */
 }
 
 .section__video_player {
@@ -147,9 +143,12 @@ section {
   padding-right: 8px;
 }
 
-.section__video_social_item span {
+.section__video_social_item button {
   font-size: 0.8rem;
   color: #606060;
+  background: none;
+  outline: none;
+  border: none;
 }
 
 .social__bottom_bar {
@@ -161,7 +160,6 @@ section {
   fill: #606060;
 }
 
-/* VIDEO DESCRIPTION SECTION */
 .video__secondary_info {
   border-bottom: 0.5px solid #c0c0c0;
   display: flex;
@@ -241,8 +239,6 @@ section {
   color: rgb(17, 17, 17, 0.6);
   margin-top: 8px;
 }
-
-/** VIDEO COMMENTS SECTION */
 
 .video--comments {
   display: flex;
@@ -365,9 +361,7 @@ span.video--comment-action-count {
   color: #606060;
 }
 
-/* RECOMMENDATION SECTION */
 aside {
-  /* background: lime; */
   padding: 24px 24px 0 0;
   display: flex;
   flex-direction: column;
@@ -396,7 +390,6 @@ aside {
 }
 
 li:first-child {
-  /* border: 1px solid black; */
   border-bottom: 1px solid #c0c0c0;
 }
 
@@ -427,4 +420,3 @@ span.video--recommendation-extra {
   color: 606060;
   font-size: 13px;
 }
-/* autoplay toggle */
